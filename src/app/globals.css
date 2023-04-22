@@ -25,6 +25,11 @@ body {
   background: #191919;
 }
 
+body.modal-open {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 @layer components {
   .svg-icon {
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
@@ -162,5 +167,12 @@ body {
   }
   .icon-star:after {
     transform: rotate(35deg);
+  }
+
+  .nav-mobile-overlay {
+    @apply flex flex-col justify-between z-30 items-center fixed left-1/2 -translate-x-1/2  bg-black/90  rounded-lg backdrop-blur-md py-32;
+
+    width: 100vw;
+    height: calc(100vh - 104px);
   }
 }

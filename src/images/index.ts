@@ -1,6 +1,6 @@
 export { default as MAIN_BANNER_IMAGE } from "./polygon-scatter-haikei-1.png";
 
-export { default as INSTAGRAM_ICON } from "./instagram.svg";
+export { default as GITHUB_ICON } from "./github.svg";
 
 export { default as TWITTER_ICON } from "./twitter.svg";
 

@@ -2,27 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { v4 as uuidv4 } from "uuid";
 
-import {
-  INSTAGRAM_ICON,
-  TWITTER_ICON,
-  // YOUTUBE_ICON,
-  LINKEDIN_ICON,
-} from "@/images";
+import { GITHUB_ICON, TWITTER_ICON, LINKEDIN_ICON } from "@/images";
 
 const SocialIcons = () => {
   const iconsArr = [
     {
-      icon: INSTAGRAM_ICON,
-      link: "https://www.instagram.com/vishav_ranta/",
+      icon: GITHUB_ICON,
+      link: "https://github.com/rantavishav",
     },
     {
       icon: TWITTER_ICON,
       link: "https://twitter.com/RantaVishav",
     },
-    // {
-    //   icon: YOUTUBE_ICON,
-    //   link: "https://www.youtube.com/channel/UCGsJtF8DNsvulS-wHaBUMEg",
-    // },
     {
       icon: LINKEDIN_ICON,
       link: "https://www.linkedin.com/in/vishav-ranta-964964194/",

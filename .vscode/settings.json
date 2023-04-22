@@ -20,5 +20,6 @@
   },
   "peacock.color": "#FF5733",
   "typescript.tsdk": "node_modules\\typescript\\lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "cSpell.words": ["uuidv"]
 }
