@@ -1,5 +1,6 @@
 import { MAIN_BANNER_IMAGE } from "@/images";
 import Image from "next/image";
+
 import SocialIcons from "../socialIcons";
 
 const HomeTitle = () => {
